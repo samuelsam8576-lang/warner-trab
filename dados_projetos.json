@@ -1,0 +1,537 @@
+{
+  "dijkstra": {
+    "nos": [
+      "Terminal Rodoviário",
+      "Centro",
+      "Bairro da Cruz",
+      "Vila Geny",
+      "Vila Nunes",
+      "Aldo Nassif",
+      "Cabelinha",
+      "Vila Hepacaré",
+      "Santo Antônio",
+      "Ponte Nova",
+      "Cecap",
+      "Parque das Rodovias",
+      "Vila Passos"
+    ],
+    "posicoes": {
+      "Terminal Rodoviário": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "Centro": {
+        "x": 1.0,
+        "y": 0.8
+      },
+      "Bairro da Cruz": {
+        "x": -1.1,
+        "y": 1.8
+      },
+      "Vila Geny": {
+        "x": 0.2,
+        "y": 2.3
+      },
+      "Vila Nunes": {
+        "x": 1.5,
+        "y": 3.0
+      },
+      "Aldo Nassif": {
+        "x": 2.6,
+        "y": 3.9
+      },
+      "Cabelinha": {
+        "x": 2.3,
+        "y": 1.0
+      },
+      "Vila Hepacaré": {
+        "x": 3.3,
+        "y": 1.9
+      },
+      "Santo Antônio": {
+        "x": 2.4,
+        "y": -0.3
+      },
+      "Ponte Nova": {
+        "x": 3.6,
+        "y": -1.2
+      },
+      "Cecap": {
+        "x": 4.7,
+        "y": -0.5
+      },
+      "Parque das Rodovias": {
+        "x": 5.8,
+        "y": -1.4
+      },
+      "Vila Passos": {
+        "x": -0.1,
+        "y": -1.3
+      }
+    },
+    "arestas": [
+      {
+        "origem": "Terminal Rodoviário",
+        "destino": "Centro",
+        "peso": 0.5
+      },
+      {
+        "origem": "Terminal Rodoviário",
+        "destino": "Bairro da Cruz",
+        "peso": 2.5
+      },
+      {
+        "origem": "Centro",
+        "destino": "Vila Geny",
+        "peso": 1.5
+      },
+      {
+        "origem": "Vila Geny",
+        "destino": "Vila Nunes",
+        "peso": 2.1
+      },
+      {
+        "origem": "Vila Nunes",
+        "destino": "Aldo Nassif",
+        "peso": 1.8
+      },
+      {
+        "origem": "Centro",
+        "destino": "Cabelinha",
+        "peso": 2.7
+      },
+      {
+        "origem": "Cabelinha",
+        "destino": "Vila Hepacaré",
+        "peso": 1.9
+      },
+      {
+        "origem": "Centro",
+        "destino": "Santo Antônio",
+        "peso": 1.3
+      },
+      {
+        "origem": "Santo Antônio",
+        "destino": "Ponte Nova",
+        "peso": 2.2
+      },
+      {
+        "origem": "Ponte Nova",
+        "destino": "Cecap",
+        "peso": 2.8
+      },
+      {
+        "origem": "Cecap",
+        "destino": "Parque das Rodovias",
+        "peso": 1.7
+      },
+      {
+        "origem": "Terminal Rodoviário",
+        "destino": "Vila Passos",
+        "peso": 1.4
+      },
+      {
+        "origem": "Vila Passos",
+        "destino": "Aldo Nassif",
+        "peso": 2.0
+      },
+      {
+        "origem": "Bairro da Cruz",
+        "destino": "Vila Passos",
+        "peso": 2.3
+      },
+      {
+        "origem": "Vila Geny",
+        "destino": "Cabelinha",
+        "peso": 2.4
+      },
+      {
+        "origem": "Santo Antônio",
+        "destino": "Vila Hepacaré",
+        "peso": 2.6
+      }
+    ],
+    "coord_gps": {
+      "Terminal Rodoviário": [
+        -22.74011,
+        -45.11952
+      ],
+      "Centro": [
+        -22.73083,
+        -45.12472
+      ],
+      "Bairro da Cruz": [
+        -22.7384,
+        -45.1108
+      ],
+      "Vila Geny": [
+        -22.746,
+        -45.114
+      ],
+      "Vila Nunes": [
+        -22.7209,
+        -45.10952
+      ],
+      "Aldo Nassif": [
+        -22.76302,
+        -45.12709
+      ],
+      "Cabelinha": [
+        -22.716,
+        -45.132
+      ],
+      "Vila Hepacaré": [
+        -22.74138,
+        -45.12315
+      ],
+      "Santo Antônio": [
+        -22.747,
+        -45.116
+      ],
+      "Ponte Nova": [
+        -22.753,
+        -45.109
+      ],
+      "Cecap": [
+        -22.756,
+        -45.115
+      ],
+      "Parque das Rodovias": [
+        -22.734,
+        -45.096
+      ],
+      "Vila Passos": [
+        -22.73531,
+        -45.10487
+      ]
+    },
+    "nota_coordenadas": "Pontos de referência aproximados no mapa de Lorena; confirme os locais e percursos no Google Maps e nos horários oficiais."
+  },
+  "prim": {
+    "aeroportos": {
+      "GRU": {
+        "cidade": "São Paulo · Guarulhos",
+        "lat": -23.4356,
+        "lon": -46.4731
+      },
+      "CGH": {
+        "cidade": "São Paulo · Congonhas",
+        "lat": -23.6261,
+        "lon": -46.6564
+      },
+      "BSB": {
+        "cidade": "Brasília",
+        "lat": -15.8711,
+        "lon": -47.9186
+      },
+      "CNF": {
+        "cidade": "Belo Horizonte · Confins",
+        "lat": -19.6244,
+        "lon": -43.9719
+      },
+      "CWB": {
+        "cidade": "Curitiba",
+        "lat": -25.5285,
+        "lon": -49.1758
+      },
+      "MAO": {
+        "cidade": "Manaus",
+        "lat": -3.0386,
+        "lon": -60.0497
+      },
+      "POA": {
+        "cidade": "Porto Alegre",
+        "lat": -29.9944,
+        "lon": -51.1714
+      },
+      "REC": {
+        "cidade": "Recife",
+        "lat": -8.1265,
+        "lon": -34.9236
+      },
+      "GIG": {
+        "cidade": "Rio de Janeiro · Galeão",
+        "lat": -22.809,
+        "lon": -43.2506
+      },
+      "VIX": {
+        "cidade": "Vitória",
+        "lat": -20.2581,
+        "lon": -40.2864
+      },
+      "FOR": {
+        "cidade": "Fortaleza",
+        "lat": -3.7763,
+        "lon": -38.5326
+      },
+      "BEL": {
+        "cidade": "Belém",
+        "lat": -1.3793,
+        "lon": -48.4763
+      },
+      "JDO": {
+        "cidade": "Juazeiro do Norte",
+        "lat": -7.2189,
+        "lon": -39.2701
+      },
+      "NAT": {
+        "cidade": "Natal",
+        "lat": -5.7681,
+        "lon": -35.3761
+      },
+      "PNB": {
+        "cidade": "Parnaíba",
+        "lat": -2.8938,
+        "lon": -41.7319
+      },
+      "SSA": {
+        "cidade": "Salvador",
+        "lat": -12.9086,
+        "lon": -38.3225
+      },
+      "SLZ": {
+        "cidade": "São Luís",
+        "lat": -2.5854,
+        "lon": -44.2341
+      }
+    },
+    "rotas": [
+      [
+        "GRU",
+        "CNF"
+      ],
+      [
+        "GRU",
+        "BSB"
+      ],
+      [
+        "GRU",
+        "CWB"
+      ],
+      [
+        "GRU",
+        "MAO"
+      ],
+      [
+        "GRU",
+        "POA"
+      ],
+      [
+        "GRU",
+        "REC"
+      ],
+      [
+        "GRU",
+        "GIG"
+      ],
+      [
+        "GRU",
+        "VIX"
+      ],
+      [
+        "FOR",
+        "BEL"
+      ],
+      [
+        "FOR",
+        "BSB"
+      ],
+      [
+        "FOR",
+        "JDO"
+      ],
+      [
+        "FOR",
+        "MAO"
+      ],
+      [
+        "FOR",
+        "NAT"
+      ],
+      [
+        "FOR",
+        "PNB"
+      ],
+      [
+        "FOR",
+        "REC"
+      ],
+      [
+        "FOR",
+        "GIG"
+      ],
+      [
+        "FOR",
+        "SSA"
+      ],
+      [
+        "FOR",
+        "SLZ"
+      ],
+      [
+        "FOR",
+        "GRU"
+      ],
+      [
+        "FOR",
+        "CGH"
+      ],
+      [
+        "FOR",
+        "CNF"
+      ]
+    ]
+  },
+  "kruskal": {
+    "nos": [
+      "Centro",
+      "Vila Geny",
+      "Bairro da Cruz",
+      "Vila Nunes",
+      "Vila Passos",
+      "Vila Zélia",
+      "Vila Hepacaré",
+      "Santo Antônio",
+      "Santa Edwiges"
+    ],
+    "posicoes": {
+      "Centro": {
+        "x": 0.0,
+        "y": 1.0
+      },
+      "Vila Geny": {
+        "x": -1.3,
+        "y": 0.1
+      },
+      "Bairro da Cruz": {
+        "x": -2.7,
+        "y": 0.4
+      },
+      "Vila Nunes": {
+        "x": -1.1,
+        "y": -1.5
+      },
+      "Vila Passos": {
+        "x": 0.7,
+        "y": -1.7
+      },
+      "Vila Zélia": {
+        "x": 2.3,
+        "y": -1.0
+      },
+      "Vila Hepacaré": {
+        "x": 3.3,
+        "y": 0.3
+      },
+      "Santo Antônio": {
+        "x": 2.2,
+        "y": 1.8
+      },
+      "Santa Edwiges": {
+        "x": 0.5,
+        "y": 2.5
+      }
+    },
+    "arestas": [
+      {
+        "origem": "Centro",
+        "destino": "Vila Geny",
+        "peso": 1.2
+      },
+      {
+        "origem": "Centro",
+        "destino": "Bairro da Cruz",
+        "peso": 2.1
+      },
+      {
+        "origem": "Bairro da Cruz",
+        "destino": "Vila Geny",
+        "peso": 1.5
+      },
+      {
+        "origem": "Vila Geny",
+        "destino": "Vila Nunes",
+        "peso": 1.8
+      },
+      {
+        "origem": "Vila Nunes",
+        "destino": "Vila Passos",
+        "peso": 1.6
+      },
+      {
+        "origem": "Vila Passos",
+        "destino": "Vila Zélia",
+        "peso": 1.3
+      },
+      {
+        "origem": "Vila Zélia",
+        "destino": "Vila Hepacaré",
+        "peso": 2.0
+      },
+      {
+        "origem": "Vila Hepacaré",
+        "destino": "Santo Antônio",
+        "peso": 2.3
+      },
+      {
+        "origem": "Santo Antônio",
+        "destino": "Santa Edwiges",
+        "peso": 2.1
+      },
+      {
+        "origem": "Vila Nunes",
+        "destino": "Santo Antônio",
+        "peso": 2.5
+      },
+      {
+        "origem": "Vila Passos",
+        "destino": "Santa Edwiges",
+        "peso": 1.9
+      },
+      {
+        "origem": "Centro",
+        "destino": "Vila Passos",
+        "peso": 2.4
+      }
+    ],
+    "coord_gps": {
+      "Centro": [
+        -22.73083,
+        -45.12472
+      ],
+      "Vila Geny": [
+        -22.746,
+        -45.114
+      ],
+      "Bairro da Cruz": [
+        -22.7384,
+        -45.1108
+      ],
+      "Vila Nunes": [
+        -22.7209,
+        -45.10952
+      ],
+      "Vila Passos": [
+        -22.73531,
+        -45.10487
+      ],
+      "Vila Zélia": [
+        -22.74,
+        -45.1015
+      ],
+      "Vila Hepacaré": [
+        -22.74138,
+        -45.12315
+      ],
+      "Santo Antônio": [
+        -22.747,
+        -45.116
+      ],
+      "Santa Edwiges": [
+        -22.751,
+        -45.108
+      ]
+    },
+    "nota_coordenadas": "Pontos de referência aproximados no mapa de Lorena; confirme os locais e percursos no Google Maps e nos horários oficiais."
+  }
+}
